@@ -1,0 +1,10 @@
+﻿  Reading Qt configuration (D:/Software/Qt5.14/Qt_azwz/5.14.1/msvc2017/bin/qmake)
+  uic QtandLeisai.ui
+  rcc QtandLeisai.qrc
+  moc QtandLeisai.h
+   RCC: Warning: No resources in 'C:\Users\admin\source\repos\QtandLeisai\QtandLeisai\QtandLeisai.qrc'.
+  QtandLeisai.cpp
+  main.cpp
+  qrc_QtandLeisai.cpp
+  moc_QtandLeisai.cpp
+  QtandLeisai.vcxproj -> C:\Users\admin\source\repos\QtandLeisai\Debug\QtandLeisai.exe

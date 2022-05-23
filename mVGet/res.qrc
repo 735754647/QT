@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="mianQss">main.css</file>
+        <file>icon.ico</file>
+        <file alias="icon">log.png</file>
+        <file alias="back">back1.jpg</file>
+    </qresource>
+</RCC>

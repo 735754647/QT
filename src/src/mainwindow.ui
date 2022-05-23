@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sudoku Game</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="level_menu">
+    <property name="title">
+     <string>Level</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuGam">
+    <property name="title">
+     <string>Game</string>
+    </property>
+    <widget class="QMenu" name="grid_size_menu">
+     <property name="title">
+      <string>Grid Size</string>
+     </property>
+    </widget>
+    <addaction name="actionNew_Game"/>
+    <addaction name="actionRestart_Game"/>
+    <addaction name="actionHint_one"/>
+    <addaction name="actionHint_All"/>
+    <addaction name="grid_size_menu"/>
+   </widget>
+   <addaction name="menuGam"/>
+   <addaction name="level_menu"/>
+  </widget>
+  <action name="actionNew_Game">
+   <property name="text">
+    <string>New Game</string>
+   </property>
+  </action>
+  <action name="actionHint_one">
+   <property name="text">
+    <string>Hint One</string>
+   </property>
+  </action>
+  <action name="actionHint_All">
+   <property name="text">
+    <string>Solve</string>
+   </property>
+  </action>
+  <action name="actionRestart_Game">
+   <property name="text">
+    <string>Restart Game</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

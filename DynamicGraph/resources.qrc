@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>images/download.png</file>
+        <file>images/loadblue.png</file>
+        <file>images/ofIcon.png</file>
+        <file>images/saveblue.png</file>
+    </qresource>
+    <qresource prefix="/resultdata">
+        <file>result/data.txt</file>
+    </qresource>
+    <qresource prefix="/savepara"/>
+</RCC>
